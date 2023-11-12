@@ -17,7 +17,7 @@ void printLights(int lightsArray[]) {
   Serial.println("{\"Fuel\":" + String(lightsArray[0]) + 
   ","+ "\"Temp\":" + String(lightsArray[1]) +
   ","+ "\"Tack\":" + String(lightsArray[2]) + 
-  ","+ "\"Oil_Temp\":" + String(lightsArray[3]) + 
+  ","+ "\"Oil_psi\":" + String(lightsArray[3]) + 
   ","+ "\"Turn_Left\":" + String(lightsArray[4]) + 
   ","+ "\"Turn_Right\":" + String(lightsArray[5]) + 
   ","+ "\"Hold\":" + String(lightsArray[6]) + 
@@ -29,9 +29,9 @@ void printLights(int lightsArray[]) {
   ","+ "\"Bealts\":" + String(lightsArray[12])+
   ","+ "\"Break\":" + String(lightsArray[13])+
   ","+ "\"Charge\":" + String(lightsArray[14])+
-  ","+ "\"Cheack_Heat\":" + String(lightsArray[15])+
+  ","+ "\"Check_Heat\":" + String(lightsArray[15])+
   "}" ); 
-  Serial.println("..................................................");
+  // Serial.println("..................................................");
 }
 
  

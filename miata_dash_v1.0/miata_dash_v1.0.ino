@@ -105,19 +105,15 @@ void setup()
   pinMode(Charge, INPUT);
   pinMode(Check_Engine, INPUT);
 
-
   // Initialise the sensor value store. We want this one to be a simple linear recursive exponential filter.
   // We set the filter level to 10. Higher numbers will result in less filtering/smoothing. Lower number result in more filtering/smoothing
   tempSensor.begin(SMOOTHED_EXPONENTIAL, 50);
-
-
 }
-
 
 void loop()
 {
   Read_Fuel = analogRead(Fuel);
-  Serial.println(Read_Fuel);
+  // Serial.print(Read_Fuel);
   tempSensor.add(Read_Fuel);
   //  int smoothedFuelValueExp = tempSensor.get();
 
