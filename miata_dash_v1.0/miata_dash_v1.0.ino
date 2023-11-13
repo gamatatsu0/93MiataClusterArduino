@@ -82,7 +82,7 @@ void setup()
   // "checkLights" function.
 
   // **** Gauges **** 4
-  //  pinMode(Fuel, INPUT);
+  pinMode(Fuel, INPUT);
   pinMode(TEMP, INPUT);
   pinMode(Tack, INPUT);
   pinMode(Oil_Temp, INPUT);
@@ -112,13 +112,10 @@ void setup()
 
 void loop()
 {
-  Read_Fuel = analogRead(Fuel);
+  // Read_Fuel = analogRead(Fuel);
   // Serial.print(Read_Fuel);
-  tempSensor.add(Read_Fuel);
+  // tempSensor.add(Read_Fuel);
   //  int smoothedFuelValueExp = tempSensor.get();
-
-
-
 
   // stop Timer 0 interrupts from throwing the count out
   byte oldTCCR0A = TCCR0A;
