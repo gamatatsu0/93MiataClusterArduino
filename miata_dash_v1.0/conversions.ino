@@ -10,3 +10,17 @@ float voltageToGallons(float voltage){
   return voltage / 0.991;
 }
 
+// This function takes in a voltage and returns the temperature 
+//equivalent ot the voltage given
+float voltageToTemp(float voltage){
+  return voltage / 0.991;
+}
+
+// This function takes in a voltage and returns the PSI
+// equivalent ot the voltage given
+// This is for the oil pressure gauge
+float voltageToPreassure(float voltage){
+  return voltage / 0.991;
+}
+
+

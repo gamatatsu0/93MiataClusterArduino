@@ -1,1 +1,13 @@
 # 93MiataClusterArduino
+
+This is the arduino part of the Mazda Miata Dashboard project, whcih can found on my github. 
+This part of the project is required since an Arduino Mega is used to read the signals from 
+the gauge cluster. 
+
+Once I am done with this porject I will upload documentation for the wiring along with other notes and diagrams. 
+The documentation is changing alot at the moment and i find it easier to just upload the finish version. 
+
+There is an exel file as part of the repo, this has the pinout that is being used for each light, and the budle of
+cables and part of the harness which is being used. 
+
+

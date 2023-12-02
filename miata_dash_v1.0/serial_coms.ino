@@ -40,9 +40,9 @@ void printLights(int lightsArray[]) {
 int *checkLights() {
   // **** Gauges **** 4
   float Read_Fuel = voltageToGallons(analogToVoltage(analogRead(Fuel))); 
-  float Read_TEMP = analogToVoltage(analogRead(TEMP)); 
+  float Read_TEMP = voltageToTemp(analogToVoltage(analogRead(TEMP))); 
   float Read_Tack = frq; 
-  float Read_Oil_Temp = analogToVoltage(analogRead(Oil_Temp)); 
+  float Read_Oil_Temp = voltageToPreassure(analogToVoltage(analogRead(Oil_Temp))); 
 
   
   //  **** Top Center **** 2
