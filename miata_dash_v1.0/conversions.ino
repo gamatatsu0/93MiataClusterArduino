@@ -11,7 +11,7 @@ float voltageToGallons(float analog){
   return voltage / 0.991;
 }
 
-// This function takes in a voltage and returns the temperature 
+// This function takes in a the analog signal and returns the temperature 
 //equivalent ot the voltage given
 float voltageToTemp(float analog){
   float voltage = analogToVoltage(analog);

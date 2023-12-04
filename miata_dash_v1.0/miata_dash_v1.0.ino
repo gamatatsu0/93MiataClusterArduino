@@ -31,7 +31,7 @@ float frq;
 int Fuel = A0;      // Analog signal will be used to read the level of the gas tank
 int TEMP = A1;      // Analog
 int Tack;           // Analog signal will come in throug D5
-int Oil_Temp = A4;  // Analog
+int Oil_Temp = A2;  // Analog
 
 //  **** Top Center **** 2
 int TurnLeft = 26;   // Top Center
